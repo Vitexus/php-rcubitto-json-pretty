@@ -1,2 +1,3 @@
 src /usr/share/php/Rcubitto/JsonPretty
 composer.json /usr/share/php/Rcubitto/JsonPretty
+debian/autoload.php /usr/share/php/Rcubitto/JsonPretty
