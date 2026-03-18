@@ -1,0 +1,20 @@
+Source: php-rcubitto-json-pretty
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ pkg-php-tools
+Standards-Version: 4.7.0
+Homepage: https://github.com/rcubitto/json-pretty
+Rules-Requires-Root: no
+
+Package: php-rcubitto-json-pretty
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ ${phpcomposer:Depends}
+Description: Pretty print your PHP arrays with style
+ Pretty print your PHP arrays with style – in full color and with proper
+ indentation.

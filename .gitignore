@@ -4,3 +4,8 @@ docs
 vendor
 coverage
 .phpunit.result.cache
+debian/php-rcubitto-json-pretty.substvars
+debian/debhelper-build-stamp
+.gitignore
+debian/.debhelper/
+debian/php-rcubitto-json-pretty/
